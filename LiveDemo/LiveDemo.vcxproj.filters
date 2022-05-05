@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RTm">
+      <UniqueIdentifier>{52046e9e-3f41-4cd4-8ff2-70ee02a13fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectShow">
+      <UniqueIdentifier>{411d81c4-eff5-4af4-8d6e-3e4a8775c89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3d">
+      <UniqueIdentifier>{d2c5cf87-db7f-4796-b7b3-865778d24ceb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LiveDemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LiveDemoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AGVideoWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AgoraRTMInstance.h">
+      <Filter>RTm</Filter>
+    </ClInclude>
+    <ClInclude Include="commonFun.h">
+      <Filter>RTm</Filter>
+    </ClInclude>
+    <ClInclude Include="RTMWrap.h">
+      <Filter>RTm</Filter>
+    </ClInclude>
+    <ClInclude Include="RTMStruct.h">
+      <Filter>RTm</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFrameObserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\AGDShowAudioCapture.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\AGDShowVideoCapture.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\AgVideoBuffer.h">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\capture-filter.hpp">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectShow\CircleBuffer.hpp">
+      <Filter>DirectShow</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendVideoFrameObserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d\D3DRender.h">
+      <Filter>D3d</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LiveDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveDemoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AGVideoWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AgoraRTMInstance.cpp">
+      <Filter>RTm</Filter>
+    </ClCompile>
+    <ClCompile Include="commonFun.cpp">
+      <Filter>RTm</Filter>
+    </ClCompile>
+    <ClCompile Include="RTMWrap.cpp">
+      <Filter>RTm</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoFrameObserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\AGDShowAudioCapture.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\AGDShowVideoCapture.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\AgVideoBuffer.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\capture-filter.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\CircleBuffer.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectShow\DShowHelper.cpp">
+      <Filter>DirectShow</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendVideoFrameObserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d\D3DRender.cpp">
+      <Filter>D3d</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LiveDemo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LiveDemo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\LiveDemo.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
